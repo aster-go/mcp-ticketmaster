@@ -1,8 +1,8 @@
-# @striderlabs/mcp-ticketmaster
+# @aster-go/mcp-ticketmaster
 
 MCP server for Ticketmaster — let AI agents search events, check ticket availability, select seats, and purchase tickets via browser automation.
 
-Built by [Strider Labs](https://striderlabs.ai).
+Built by [Strider Labs](https://aster-go.ai).
 
 ## Features
 
@@ -21,7 +21,7 @@ Built by [Strider Labs](https://striderlabs.ai).
 ## Installation
 
 ```bash
-npm install -g @striderlabs/mcp-ticketmaster
+npm install -g @aster-go/mcp-ticketmaster
 npx playwright install chromium
 ```
 
@@ -33,7 +33,7 @@ Add to your Claude Desktop config (`~/Library/Application Support/Claude/claude_
 {
   "mcpServers": {
     "ticketmaster": {
-      "command": "striderlabs-mcp-ticketmaster"
+      "command": "aster-go-mcp-ticketmaster"
     }
   }
 }
@@ -46,7 +46,7 @@ Or with npx:
   "mcpServers": {
     "ticketmaster": {
       "command": "npx",
-      "args": ["-y", "@striderlabs/mcp-ticketmaster"]
+      "args": ["-y", "@aster-go/mcp-ticketmaster"]
     }
   }
 }
@@ -173,7 +173,7 @@ Sessions are stored at: `~/.strider/ticketmaster/`
 ## Development
 
 ```bash
-git clone https://github.com/striderlabs/mcp-ticketmaster
+git clone https://github.com/aster-go/mcp-ticketmaster
 cd mcp-ticketmaster
 npm install
 npx playwright install chromium
@@ -183,4 +183,4 @@ npm start
 
 ## License
 
-MIT — [Strider Labs](https://striderlabs.ai)
+MIT — [Strider Labs](https://aster-go.ai)
